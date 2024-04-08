@@ -10,6 +10,6 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:Taras-Roboteckyi/Vue-CLI_first-app.git master:gh-pages
+git push -f git@github.com:Taras-Roboteckyi/Vue-CLI_app.git master:gh-pages
 
 cd -
