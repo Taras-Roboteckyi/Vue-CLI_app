@@ -55,7 +55,11 @@ const routes = [
   },
 ];
 
-const router = new VueRouter({ routes, mode: "history" });
+const router = new VueRouter({
+  routes,
+  mode: "history",
+  base: "/Vue-CLI_app/",
+});
 
 //Є глобальний хук який називається beforeEach, який спрацьовує кожен раз коли є перехід з роута на інший роут. Він приймає три параметри to, from i next
 router.beforeEach((to, from, next) => {
